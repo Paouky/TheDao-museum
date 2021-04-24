@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="tailwind.css" rel="stylesheet">
+  <link rel='stylesheet' href='https://icono-49d6.kxcdn.com/icono.min.css'>
+  <link rel="stylesheet" href="audio.css">
+
+  <style media="screen">
+      body {
+          background-color: #101010;
+      }
+      p {
+          color: white;
+          margin: 12px 5px 0px 8px; /* top-right-bottom-left*/
+      }
+  </style>
+</head>
+<body>
+    <div class="grid grid-cols-1 justify-items-center">
+        <img class="w-3/5 xl:w-1/2 max-w-screen-lg mt-12" src="assets/eth-ruins-v2.png" alt="ruins">
+        <p>THE DAO</p>
+        <p>Forgotten and left to rot — delisted & removed from everywhere — TheDao is now being resurrected out of obscurity</p>
+        <p>What was once great, will rise once again from the ashes</p>
+    </div>
+
+
+    <!-- AUDIO PLAYER -->
+    <section class="fixed bottom-0 w-full">
+    <div class="rt-container">
+    <div class="col-rt-12">
+    <div class="Scriptcontent">
+
+    <div style="width: 50px; height: 50px;"></div>
+    <div class="audio-player w-full" style="margin: 0 auto">
+      <div class="timeline">
+        <div class="progress"></div>
+      </div>
+      <div class="controls">
+        <div class="play-container">
+          <div class="toggle-play play">
+        </div>
+        </div>
+        <div class="time">
+          <!--<div class="current">0:00</div>
+          <div class="divider">/</div>
+          <div class="length"></div>-->
+        </div>
+        <!--<div class="name">Name</div>-->
+        <div class="volume-container">
+          <div class="volume-button">
+            <div class="volume icono-volumeMedium"></div>
+          </div>
+
+          <div class="volume-slider">
+            <div class="volume-percentage"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script  src="js/player.js"></script>
+
+    </div>
+    </div>
+    </div>
+    </section>
+    <!-- END AUDIO PLAYER -->
+
+
+    <!--<p class="text-purple-600">test</p>
+    <button class="bg-green-500">Button</button>-->
+</body>
+</html>
